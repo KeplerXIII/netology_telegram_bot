@@ -1,4 +1,5 @@
 from random import choice
+
 import telebot
 
 
@@ -6,7 +7,7 @@ token = '5396061392:AAFey3qztihNxidd8btHlfye24p4XmMffV8'
 
 bot = telebot.TeleBot(token)
 
-RANDOM_TASKS = ['Написать Гвидо письмо', 'Выучить Python', 'Записаться на курс в Нетологию', 'Посмотреть 4 сезон Рик и Морти']
+RANDOM_TASKS = ['Написать Гвидо письмо', 'Выучить Python', 'Записаться на курс', 'Посмотреть 4 сезон Рик и Морти']
 
 todos = dict()
 
