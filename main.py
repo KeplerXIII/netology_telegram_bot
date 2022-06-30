@@ -2,8 +2,7 @@ from random import choice
 
 import telebot
 
-
-token = '5396061392:AAFey3qztihNxidd8btHlfye24p4XmMffV8'
+token = ""
 
 bot = telebot.TeleBot(token)
 
